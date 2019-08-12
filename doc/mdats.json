@@ -1,0 +1,12 @@
+// mdats
+db.createCollection("mdats");
+
+db.mdats.insert({ 
+    "mdate" : new Date() ,
+    "hnum": 120,
+    "lnum" : 82, 
+    "uid" : 0,
+    "up_date" : new Date() 
+});
+
+db.mdats.find();
